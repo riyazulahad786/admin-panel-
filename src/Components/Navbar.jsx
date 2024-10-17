@@ -14,10 +14,11 @@ function Navbar() {
       <ul className={`menu_list d-lg-flex ${open ? 'open' : ''} justify-content-evenly`}>
       {/* close btn */}
        <a className='d-lg-none close_btn' onClick={handleOpen}><IoMdClose/></a>
-        <li>Home</li>
-        <li>About</li>
-        <li>Service</li>
-        <li>Products</li>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/about'>About</a></li>
+        <li><a href='/service'>Service</a></li>
+        <li><a href='/products'>Products</a></li>
+        <li><a href='/contact'>Contact</a></li>
       </ul>
       {/* menu btn */}
      <a className='d-lg-none' onClick={handleOpen}><IoIosMenu/></a>

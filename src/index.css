@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+a{
+  text-decoration: none;
+}
 body{
   overflow-x: hidden;
 }
@@ -19,7 +22,7 @@ body{
 }
 .text_section{
   max-width: 600px;
-  margin: 2rem 3rem;
+  margin: 2rem 6rem;
 }
 .home_background_image{
   position: absolute;
@@ -142,7 +145,8 @@ li{
     padding: 2rem 3rem;
   }
   .background_about_image{
-    max-width: 100px;
+    max-width: 150px;
+    top: 50px;
    
   }
   .service_card{
@@ -185,5 +189,11 @@ li{
  }
  .image_section{
   margin-top: 3rem;
+ }
+ .products{
+  flex-wrap: wrap;
+ }
+ .text_section{
+  margin: 2rem 2rem;
  }
 }
