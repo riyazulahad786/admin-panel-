@@ -27,7 +27,7 @@ body{
 .home_background_image{
   position: absolute;
   top: -100px;
-  right: -170px;
+  right: 0px;
   z-index: -2;
   max-width: 700px;
 }
@@ -54,7 +54,32 @@ body{
    max-height: 100px;
    margin-left: 2rem;
 }
+.search{
+ position: relative;
+ display: flex;
+ align-items: center;
+}
 
+.subscribe-btn{
+  position: absolute;
+  max-width: 120px;
+  right: 4px;
+  outline: none;
+  border: none;
+  background-color: orange;
+  border-radius: 100px;
+  padding: 0.6rem 1.8rem;
+  margin: 9rem 0rem;
+  text-align: center;
+}
+.subscribe-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.subscribe:focus{
+  outline: none;
+}
 /* ------------------------------------------about-------------------------------------------------------- */
 .about_container{
   display: flex;
@@ -123,8 +148,9 @@ li{
 .subscribe{
   width: 100%;
   border-radius: 100px;
-  padding: 0.3rem 1.3rem;
+  padding: 0.8rem 2.3rem;
   border: none;
+  
 }
 
 /* ---------------------services----------------------------- */

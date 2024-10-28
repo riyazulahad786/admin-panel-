@@ -7,7 +7,10 @@ function Footer() {
    <div className='row py-2'>
     <div className='col-lg-6 text-center mx-auto'>
     <h3>Have Doubts ? in your mind ask us</h3>
-    <input type='text' className='subscribe' placeholder='Subscribe'/>
+      <div className='search '>
+      <input type='text' className='subscribe' placeholder='Subscribe'/>
+      <button className='subscribe-btn'>Subscribe</button>
+      </div>    
     </div>
    </div>
    <div className='row py-3'>
