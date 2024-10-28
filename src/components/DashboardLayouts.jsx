@@ -19,9 +19,8 @@ import LoinsAdvisor from "./LoinsAdvisor";
 import Messages from "./Messages";
 import Revenue from "./Revenue";
 import Report from "./Report";
-import Tooltip from "./ToolTip";
 import Header from "./Header";
-
+import Tooltip from './Tooltip'
 export default function DashboardLayouts() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
